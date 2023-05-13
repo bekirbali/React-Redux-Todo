@@ -6,7 +6,7 @@ const TodoList = () => {
   return (
     <div>
       {todoList.map((todo) => (
-        <p key={todo.id DAS}> {todo.text}</p>
+        <p key={todo.id}> {todo.text}</p>
       ))}
     </div>
   );
